@@ -30,6 +30,7 @@
             fwrite($file, $_POST['contenu']); // on écrit dans le fichier dont l'adresse est stockée dans $file et on y injecte le contenu
             fclose($file);  // on referme le fichier
         } // ET C'EST FINI ;)
+        // et voilà
 
 
 
